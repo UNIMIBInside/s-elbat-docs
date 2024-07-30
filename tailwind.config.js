@@ -15,7 +15,10 @@ module.exports = {
         sm: "0px",
         lg: "997px",
       },
-      colors: {},
+      colors: {
+        purple: "#33027C",
+        lightpurple: "#bba8d7",
+      },
     },
   },
   plugins: [],

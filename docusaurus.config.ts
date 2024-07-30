@@ -63,7 +63,7 @@ const config: Config = {
       title: 's-elBat',
       logo: {
         alt: 's-elBat',
-        src: 'img/logo.svg',
+        src: 'img/selbat.png',
       },
       items: [
         {

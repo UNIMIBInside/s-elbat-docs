@@ -41,8 +41,8 @@ export default function Home(): JSX.Element {
     >
       <main>
         <img
-          src="/mantistable-ui-docs/img/bblurry.svg"
-          className="absolute opacity-15 -top-[45rem]"
+          src="/s-elbat-docs/img/bblurryselbat.svg"
+          className="absolute opacity-20 -top-[45rem]"
         />
         <section className="relative z-10">
           <div className="place-content-center mx-4 lg:gap-12 xl:gap-12 lg:pt-10 lg:grid-cols-12 pb-12">

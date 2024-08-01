@@ -39,7 +39,7 @@ export default function Home(): JSX.Element {
       <main>
         <img
           src="/s-elbat-docs/img/bblurryselbat.svg"
-          className="absolute opacity-20 -top-[64rem]"
+          className="absolute opacity-60 -top-[64rem]"
         />
         <section className="relative z-10">
           <div className="place-content-center mx-4 lg:gap-12 xl:gap-12 lg:pt-10 lg:grid-cols-12 pb-12">

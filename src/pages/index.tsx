@@ -23,7 +23,7 @@ const features = [
     description:
       "Adapts seamlessly to your data environment, employing tailored techniques for both scenarios with and without training datasets.",
     icon: SquarePen,
-  }
+  },
 ];
 
 export default function Home(): JSX.Element {
@@ -40,7 +40,7 @@ export default function Home(): JSX.Element {
         />
         <section className="relative z-10">
           <div className="place-content-center mx-4 lg:gap-12 xl:gap-12 lg:pt-10 lg:grid-cols-12 pb-12">
-            <h1 className="md:text-center pt-12 mb-10 leading-none text-purple sm:text-6xl md:text-7xl lg:text-8xl dark:text-lightpurple font-bold tracking-widest">
+            <h1 className="md:text-center pt-12 mb-12 leading-none text-purple sm:text-6xl md:text-7xl lg:text-8xl dark:text-lightpurple font-bold tracking-widest">
               s-elBat
             </h1>
             <div className="justify-center flex flex-col md:flex-row max-w-6xl gap-20 pb-2 mx-auto">
@@ -52,7 +52,9 @@ export default function Home(): JSX.Element {
               <div className="place-content-center max-w-lg pl-2">
                 <p className=" text-gray-800 dark:text-gray-100 sm:text-xl lg:mb-8 md:text-2xl lg:text-3xl">
                   {" "}
-                  Supervised and Unsupervised Semantic Table Interpretation Approach with Feature/Vector Entity Retrieval and Disambiguation Techniques
+                  Supervised and Unsupervised Semantic Table Interpretation
+                  Approach with Feature/Vector Entity Retrieval and
+                  Disambiguation Techniques
                 </p>
                 <a
                   href="/s-elbat-docs/docs/introduction"
@@ -71,10 +73,14 @@ export default function Home(): JSX.Element {
               <div className="flex flex-col justify-center lg:pr-8 lg:pt-4">
                 <div className="lg:max-w-lg">
                   <p className="mt-4 text-lg leading-6 text-gray-700 dark:text-gray-100">
-                  Discover s-elBat, the cutting-edge solution for Semantic Table Interpretation (STI) that sets a new standard. Combining both supervised and unsupervised approaches, s-elBat effectively addresses all key STI challenges, offering unparalleled accuracy and efficiency.
+                    Discover s-elBat, the cutting-edge solution for Semantic
+                    Table Interpretation (STI) that sets a new standard.
+                    Combining both supervised and unsupervised approaches,
+                    s-elBat effectively addresses all key STI challenges,
+                    offering unparalleled accuracy and efficiency.
                   </p>
                   <p className="mt-4 text-lg leading-6 text-gray-700 dark:text-gray-100">
-                  Key Features:
+                    Key Features:
                   </p>
                   <div className="mt-6 max-w-xl space-y-4 text-base leading-5 text-gray-600 lg:max-w-none">
                     {features.map((feature) => (

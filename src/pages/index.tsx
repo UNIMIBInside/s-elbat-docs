@@ -31,7 +31,9 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="MantisTable UI was designed to let you tame your Semantic Table Interpretation approach."
+      description="s-elBat: Supervised and Unsupervised Semantic Table Interpretation
+                  Approach with Feature/Vector Entity Retrieval and
+                  Disambiguation Techniques."
     >
       <main>
         <img

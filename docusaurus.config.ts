@@ -58,7 +58,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/mammotab-social-card.png',
+    image: 'img/selbatsocialui.png',
     navbar: {
       title: 's-elBat',
       logo: {

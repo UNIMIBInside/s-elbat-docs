@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
       <main>
         <img
           src="/s-elbat-docs/img/bblurryselbat.svg"
-          className="absolute opacity-20 -top-[45rem]"
+          className="absolute opacity-20 -top-[64rem]"
         />
         <section className="relative z-10">
           <div className="place-content-center mx-4 lg:gap-12 xl:gap-12 lg:pt-10 lg:grid-cols-12 pb-12">
@@ -88,7 +88,7 @@ export default function Home(): JSX.Element {
                         <div className="inline font-bold text-gray-900 dark:text-gray-300">
                           <feature.icon
                             aria-hidden="true"
-                            className="absolute left-1 top-1 h-5 w-5 text-primaryGreen dark:text-secondaryGreen"
+                            className="absolute left-1 top-1 h-5 w-5 text-purple dark:text-lightpurple"
                           />
                           {feature.name}
                         </div>
@@ -101,9 +101,9 @@ export default function Home(): JSX.Element {
                 </div>
               </div>
               <img
-                alt="Product screenshot"
-                src="/mantistable-ui-docs/img/mantisUI.png"
-                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                alt="Selbat architecture"
+                src="/s-elbat-docs/img/selbatarc.png"
+                className="w-[36rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
               />
             </div>
           </div>

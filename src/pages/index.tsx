@@ -46,7 +46,7 @@ export default function Home(): JSX.Element {
         />
         <section className="relative z-10">
           <div className="place-content-center mx-4 lg:gap-12 xl:gap-12 lg:pt-10 lg:grid-cols-12 pb-12">
-            <h1 className="md:text-center pt-12 mb-10 leading-none text-purple sm:text-6xl md:text-7xl lg:text-8xl dark:text-lightpurple font-bold tracking-widest">
+            <h1 className="md:text-center pt-12 mb-12 leading-none text-purple sm:text-6xl md:text-7xl lg:text-8xl dark:text-lightpurple font-bold tracking-widest">
               S-elbat
             </h1>
             <div className="justify-center flex flex-col md:flex-row max-w-6xl gap-20 pb-2 mx-auto">

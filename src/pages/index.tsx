@@ -13,22 +13,16 @@ import {
 
 const features = [
   {
-    name: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "Advanced Entity Retrieval",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce odio turpis, interdum quis elit egestas, suscipit rutrum nulla.",
+      "Leveraging LamAPI (Label Matching API), s-elBat excels in IR-based Entity Retrieval (ER) with enhanced type-based filtering features for superior precision.",
     icon: SquareChartGantt,
   },
   {
-    name: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "Dynamic Entity Disambiguation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce odio turpis, interdum quis elit egestas, suscipit rutrum nulla.",
+      "Adapts seamlessly to your data environment, employing tailored techniques for both scenarios with and without training datasets.",
     icon: SquarePen,
-  },
-  {
-    name: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce odio turpis, interdum quis elit egestas, suscipit rutrum nulla.",
-    icon: Blocks,
   },
 ];
 
@@ -47,7 +41,7 @@ export default function Home(): JSX.Element {
         <section className="relative z-10">
           <div className="place-content-center mx-4 lg:gap-12 xl:gap-12 lg:pt-10 lg:grid-cols-12 pb-12">
             <h1 className="md:text-center pt-12 mb-12 leading-none text-purple sm:text-6xl md:text-7xl lg:text-8xl dark:text-lightpurple font-bold tracking-widest">
-              S-elbat
+              s-elBat
             </h1>
             <div className="justify-center flex flex-col md:flex-row max-w-6xl gap-20 pb-2 mx-auto">
               <img
@@ -58,11 +52,9 @@ export default function Home(): JSX.Element {
               <div className="place-content-center max-w-lg pl-2">
                 <p className=" text-gray-800 dark:text-gray-100 sm:text-xl lg:mb-8 md:text-2xl lg:text-3xl">
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  odio turpis, interdum quis elit egestas, suscipit rutrum
-                  nulla. Quisque ut volutpat nunc. Nulla eget diam tincidunt,
-                  dapibus sem ultrices, suscipit justo. Maecenas varius eleifend
-                  eleifend. Praesent sodales luctus dignissim.
+                  Supervised and Unsupervised Semantic Table Interpretation
+                  Approach with Feature/Vector Entity Retrieval and
+                  Disambiguation Techniques
                 </p>
                 <a
                   href="/s-elbat-docs/docs/introduction"
@@ -80,15 +72,15 @@ export default function Home(): JSX.Element {
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div className="flex flex-col justify-center lg:pr-8 lg:pt-4">
                 <div className="lg:max-w-lg">
-                  <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h2>
                   <p className="mt-4 text-lg leading-6 text-gray-700 dark:text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Fusce odio turpis, interdum quis elit egestas, suscipit
-                    rutrum nulla. Quisque ut volutpat nunc. Nulla eget diam
-                    tincidunt, dapibus sem ultrices, suscipit justo. Maecenas
-                    varius eleifend eleifend. Praesent sodales luctus dignissim.
+                    Discover s-elBat, the cutting-edge solution for Semantic
+                    Table Interpretation (STI) that sets a new standard.
+                    Combining both supervised and unsupervised approaches,
+                    s-elBat effectively addresses all key STI challenges,
+                    offering unparalleled accuracy and efficiency.
+                  </p>
+                  <p className="mt-4 text-lg leading-6 text-gray-700 dark:text-gray-100">
+                    Key Features:
                   </p>
                   <div className="mt-6 max-w-xl space-y-4 text-base leading-5 text-gray-600 lg:max-w-none">
                     {features.map((feature) => (

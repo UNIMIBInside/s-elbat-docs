@@ -71,7 +71,7 @@ export default function Home(): JSX.Element {
               <div className="flex flex-col justify-center lg:pr-8 lg:pt-4">
                 <div className="lg:max-w-lg">
                   <p className="mt-4 text-lg leading-6 text-gray-700 dark:text-gray-100">
-                  Discover s-elBat, the cutting-edge solution for Semantic Table Interpretation (STI) that sets a new standard. Combining both supervised and unsupervised approaches, s-elBat effectively addresses all critical STI challenges, offering unparalleled accuracy and efficiency.
+                  Discover s-elBat, the cutting-edge solution for Semantic Table Interpretation (STI) that sets a new standard. Combining both supervised and unsupervised approaches, s-elBat effectively addresses all key STI challenges, offering unparalleled accuracy and efficiency.
                   </p>
                   <p className="mt-4 text-lg leading-6 text-gray-700 dark:text-gray-100">
                   Key Features:
